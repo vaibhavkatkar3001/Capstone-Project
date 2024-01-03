@@ -12,9 +12,9 @@ In this, I have completed two projects.
 Iphone Purchases are getting increased day by day and many stores wants to predict whether a customer will purchase an Iphone from thier store given their gender, age and salary.
 
 ### _Method_
-I used **KNN Classifire** to predict whether a customer will purchase an iphone or not.
+I used `KNN Classifire` to predict whether a customer will purchase an iphone or not.
 
-This code import **_KNN Classifire_**
+### This code imports `KNN Classifire`
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -28,7 +28,8 @@ model_clf_train.score(X_train,y_train)
 
 
 ## [KNN Classifier Notebook]('https://github.com/vaibhavkatkar3001/Capstone-Project/blob/main/iphone_prj5.ipynb')
--------
+
+---
 
 ### _Business impact_
 
@@ -46,7 +47,9 @@ To Predict the Price of Bangalore House.
 
 ---
 ### _Method_
-I used **KNN Regressor** to predict price of Bangalore house
+I used `KNN Regressor` to predict price of Bangalore house
+
+### This code imports `Regressor`
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -66,5 +69,4 @@ print(results)
 ### _Business impact_
 So, we created a model using KNN which can Predict the Price of Bangalore House. And the 96 % of accuracy is tell us that it is a pretty fair fit the model.
 
-
-
+---
